@@ -5,5 +5,8 @@ export default () => (
   <div>
     <p>Hello world from my second Gatsby page</p>
     <Link to="/">back home</Link>
+    <div>
+      <Link to="/counter/">Counter</Link>
+    </div>
   </div>
 );
