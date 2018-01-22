@@ -1,5 +1,20 @@
 import React from "react";
 import Link from 'gatsby-link';
+import Typography from "typography";
+
+const typography = new Typography({
+  baseFontSize: "18px",
+  baseLineHeight: 1.45,
+  headerFontFamily: [
+    "Avenir Next",
+    "Helvetica Neue",
+    "Segoe UI",
+    "Helvetica",
+    "Arial",
+    "sans-serif",
+  ],
+  bodyFontFamily: ["Georgia", "serif"],
+});
 
 class Counter extends React.Component {
   constructor() {
@@ -26,6 +41,7 @@ class Counter extends React.Component {
           <Link to="/page-2/">Page Two</Link>
         </div>
       </div>
+
     )
   }
 }
